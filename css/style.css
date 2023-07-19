@@ -103,7 +103,7 @@ body {
 	font-size: 16px;
 	line-height: 1.5;
 	font-weight: 400;
-	color: #9b9b9b;
+	color: #000000;
 	background-color: #f5e0e0;
 	-webkit-text-size-adjust: none;
 	-webkit-font-smoothing: subpixel-antialiased;
@@ -1161,7 +1161,7 @@ a[href*='tel'], a[href*='mailto'] {
 
 .team-minimal .team-minimal-caption {
 	padding: 20px 5px 10px 5px;
-	background: #f5e0e0;
+	background: #ffffff;
 	white-space: nowrap;
 }
 
@@ -2054,7 +2054,7 @@ p + .list-marked {
 }
 
 .contact-list .contact-list-content a {
-	color: #9b9b9b;
+	color: #000000;
 }
 
 .contact-list .contact-list-content a:hover {
@@ -4956,7 +4956,9 @@ h3 + img {
 .section-xl {
 	padding: 50px 0;
 }
-
+.section-md{
+	background-color: #ffffff;
+}
 .section-collapse + .section-collapse {
 	padding-top: 0;
 }
@@ -6065,7 +6067,7 @@ html:not(.lt-ie10) .not-animated {
 	}
 	25% {
 		transform: scale(0.9, 0.9);
-		background: #b4e5db;
+		background: #ff6b6b;
 	}
 	50% {
 		transform: scale(1, 1);
@@ -8679,7 +8681,7 @@ html.rd-navbar-fixed-linked .page {
 
 .swiper-arrow-white.swiper-slider-2 .swiper-button-prev,
 .swiper-arrow-white.swiper-slider-2 .swiper-button-next {
-	background: rgba(255, 255, 255, 0.2);
+	background: rgba(255, 255, 255);
 }
 
 .swiper-arrow-white.swiper-slider-2 .swiper-button-prev:hover,
@@ -8750,7 +8752,7 @@ html.rd-navbar-fixed-linked .page {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background: rgba(255, 255, 255, 0.7);
+	background: rgba(255, 255, 255, 0.1	);
 }
 
 @media (min-width: 1200px) {
